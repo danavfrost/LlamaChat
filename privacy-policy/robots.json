@@ -1,0 +1,32 @@
+{
+  "document": "LlamaChat Privacy Summary",
+  "version": "2026-03-02",
+  "product": "LlamaChat",
+  "summary": {
+    "local_inference": true,
+    "cloud_inference": false,
+    "network_connections": false,
+    "in_app_downloads_after_install": false,
+    "ads": false,
+    "kid_friendly_goal": true
+  },
+  "storage": {
+    "encrypted_local_chat": true,
+    "encrypted_persistent_memory": true,
+    "encrypted_persona_storage": true,
+    "blocks_screenshots": true,
+    "user_controls_data": true,
+    "supports_chat_wipe": true,
+    "supports_full_data_wipe": true,
+    "data_exports": false
+  },
+  "permissions": {
+    "microphone_optional": true,
+    "notifications_optional": true
+  },
+  "human_page": "/privacy-policy/",
+  "notes": [
+    "This machine-readable summary is intended for crawlers and automated parsers.",
+    "The human-facing document remains the primary public explanation."
+  ]
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Preferred machine-readable summary file for crawlers:
+# /privacy-policy/robots.json
