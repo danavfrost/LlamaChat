@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LlamaChat Docs</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #111827;
+      --surface: #1f2937;
+      --panel: #273449;
+      --ink: #f8fafc;
+      --muted: #94a3b8;
+      --line: #334155;
+      --accent: #42c2c2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top right, rgba(66, 194, 194, 0.08), transparent 30%),
+        linear-gradient(180deg, var(--bg), #162132 48%, #111827);
+      color: var(--ink);
+      display: grid;
+      place-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: min(820px, 100%);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(39, 52, 73, 0.96), rgba(28, 40, 58, 0.96));
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-height: 260px;
+      object-fit: cover;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .content {
+      padding: 28px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 6vw, 3.4rem);
+      line-height: 0.96;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    a.button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid var(--line);
+    }
+
+    a.primary {
+      background: var(--accent);
+      color: var(--bg);
+      border-color: transparent;
+    }
+
+    a.secondary {
+      color: var(--ink);
+      background: rgba(17, 24, 39, 0.35);
+    }
+
+    @media (max-width: 560px) {
+      .content {
+        padding: 20px;
+      }
+
+      img {
+        max-height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="banner.png" alt="LlamaChat banner">
+    <section class="content">
+      <p class="eyebrow">LlamaChat Docs</p>
+      <h1>Welcome To The Safe Pasture</h1>
+      <p>
+        This is the public documentation site for LlamaChat. Chat with your own
+        real digital llama and learn how the app handles privacy, storage, and
+        local-only behavior.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="privacy-policy/">Open Privacy Policy</a>
+        <a class="button secondary" href="privacy-policy/robots.json">Open Bot Summary</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
