@@ -3,6 +3,8 @@
 This repository contains the public-facing documentation site for LlamaChat.
 It is intended for static hosting, such as GitHub Pages.
 
+AI built by AI, it's AIception!
+
 Suggested use:
 
 - host this directory with GitHub Pages, or
